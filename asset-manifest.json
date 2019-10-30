@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.7290ac7f.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.799079fb.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.799079fb.chunk.js.map",
-    "runtime-main.js": "/react-gh-pages/static/js/runtime-main.9f847879.js",
-    "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.9f847879.js.map",
-    "static/css/2.c6231af7.chunk.css": "/react-gh-pages/static/css/2.c6231af7.chunk.css",
-    "static/js/2.4a2eccfd.chunk.js": "/react-gh-pages/static/js/2.4a2eccfd.chunk.js",
-    "static/js/2.4a2eccfd.chunk.js.map": "/react-gh-pages/static/js/2.4a2eccfd.chunk.js.map",
-    "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.06cda8de1c47c5ce4f8a371f7aee5b68.js": "/react-gh-pages/precache-manifest.06cda8de1c47c5ce4f8a371f7aee5b68.js",
-    "service-worker.js": "/react-gh-pages/service-worker.js",
-    "static/css/2.c6231af7.chunk.css.map": "/react-gh-pages/static/css/2.c6231af7.chunk.css.map",
-    "static/css/main.7290ac7f.chunk.css.map": "/react-gh-pages/static/css/main.7290ac7f.chunk.css.map"
+    "main.css": "/scheduler/static/css/main.7290ac7f.chunk.css",
+    "main.js": "/scheduler/static/js/main.bbff59b7.chunk.js",
+    "main.js.map": "/scheduler/static/js/main.bbff59b7.chunk.js.map",
+    "runtime-main.js": "/scheduler/static/js/runtime-main.1f7ff79a.js",
+    "runtime-main.js.map": "/scheduler/static/js/runtime-main.1f7ff79a.js.map",
+    "static/css/2.c6231af7.chunk.css": "/scheduler/static/css/2.c6231af7.chunk.css",
+    "static/js/2.4a2eccfd.chunk.js": "/scheduler/static/js/2.4a2eccfd.chunk.js",
+    "static/js/2.4a2eccfd.chunk.js.map": "/scheduler/static/js/2.4a2eccfd.chunk.js.map",
+    "index.html": "/scheduler/index.html",
+    "precache-manifest.83de0ceba4122da8bb02ca62b1418239.js": "/scheduler/precache-manifest.83de0ceba4122da8bb02ca62b1418239.js",
+    "service-worker.js": "/scheduler/service-worker.js",
+    "static/css/2.c6231af7.chunk.css.map": "/scheduler/static/css/2.c6231af7.chunk.css.map",
+    "static/css/main.7290ac7f.chunk.css.map": "/scheduler/static/css/main.7290ac7f.chunk.css.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f847879.js",
+    "static/js/runtime-main.1f7ff79a.js",
     "static/css/2.c6231af7.chunk.css",
     "static/js/2.4a2eccfd.chunk.js",
     "static/css/main.7290ac7f.chunk.css",
-    "static/js/main.799079fb.chunk.js"
+    "static/js/main.bbff59b7.chunk.js"
   ]
 }
