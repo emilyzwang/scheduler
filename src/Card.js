@@ -6,21 +6,21 @@ export default class Card extends React.Component {
     super(props);
     this.handleClick = this.handleClick.bind(this);
     this.state = {
-      day : new Date(this.props.date.getTime() + this.props.time.getTime())
+      time : new Date(this.props.date.getTime() + this.props.time.getTime())
     }
   }
 
   handleClick() {
-    this.props.setDate(this.state.day);
+    this.props.setTime(this.props.time);
   }
 
   render() {
     return(
       <div>
         <div>
-          {this.state.day.toLocaleTimeString()}
+          {this.state.time.toLocaleTimeString()}
         </div>
-        <Link to="/confirm">
+        <Link to="/scheduler/confirm">
           <div className="ui animated basic blue button" tabIndex="0" onClick={this.handleClick}>
             <div className="visible content">Confirm Time</div>
             <div className="hidden content">

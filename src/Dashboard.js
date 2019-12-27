@@ -3,9 +3,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
-import DayPicker from 'react-day-picker';
 import 'react-day-picker/lib/style.css';
 import Calendar from './Calendar';
 import Confirm from './Confirm';
@@ -15,24 +13,26 @@ export default class Dashboard extends React.Component {
   constructor(props) {
     super(props);
     this.setDate = this.setDate.bind(this);
+    this.setTime = this.setTime.bind(this);
     this.state = {
-      date : new Date(),
-      time : new Date()
+      date : undefined,
+      time : undefined
     }
   }
 
   render() {
+    // console.log(this.state.date);
     return (
       <Router>
         <div>
           {/* A <Switch> looks through its children <Route>s and
-              renders the first one that matches the current URL. */}
+          renders the first one that matches the current URL. */}
           <Switch>
-            <Route path="/confirm">
-              <Confirm date = {this.state.date}/>
+            <Route path="/scheduler/confirm">
+              <Confirm date = {this.state.date} time = {this.state.time}/>
             </Route>
-            <Route path="/">
-              <Calendar setDate = {this.setDate}/>
+            <Route path="/scheduler">
+              <Calendar setDate = {this.setDate} setTime = {this.setTime}/>
             </Route>
           </Switch>
         </div>
@@ -44,6 +44,8 @@ export default class Dashboard extends React.Component {
     this.setState({date : selectedDate});
   }
 
-
+  setTime(selectedTime) {
+    this.setState({time : selectedTime});
+  }
 
 }
